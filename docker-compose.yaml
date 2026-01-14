@@ -11,7 +11,7 @@ services:
     volumes:
       - ./:/usr/src/app
     command:
-      - "./odoo19-venv/bin/python"
+      - "./odoo18-venv/bin/python"
       - "odoo-bin"
       - "-c"
       - "odoo.conf"

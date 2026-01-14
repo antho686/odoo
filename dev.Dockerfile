@@ -42,8 +42,8 @@ RUN wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/w
 
 COPY requirements.txt requirements.txt
 
-RUN python3.12 -m venv odoo19-venv && \
-        . odoo19-venv/bin/activate && \
+RUN python3.12 -m venv odoo18-venv && \
+        . odoo18-venv/bin/activate && \
         pip install -r requirements.txt
 
 COPY . .

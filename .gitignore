@@ -5,8 +5,8 @@ _build/
 volumes/
 # venv
 venv/
-odoo19/
-odoo19-venv/
+odoo18/
+odoo18-venv/
 
 # dotfiles
 .*
