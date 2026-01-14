@@ -1,0 +1,14 @@
+# Project Management Files
+.git/
+.idea/
+.github/
+
+# Documentation
+doc/
+# Non Containerized Environment Files
+odoo19/
+# Containerized Database Data Volumes
+volumes/
+
+dev.Dockerfile
+docker-compose.yaml

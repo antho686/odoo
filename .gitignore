@@ -1,8 +1,16 @@
 # sphinx build directories
 _build/
 
+# docker volumes
+volumes/
+# venv
+venv/
+odoo19/
+odoo19-venv/
+
 # dotfiles
 .*
+!.dockerignore
 !.gitignore
 !.github
 !.mailmap
