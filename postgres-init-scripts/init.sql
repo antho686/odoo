@@ -1,5 +1,5 @@
--- Create user 'odoo' with password 'odoo19'
-CREATE USER odoo WITH PASSWORD 'odoo19';
+-- Create user 'odoo' with password 'odoo18'
+CREATE USER odoo WITH PASSWORD 'odoo18';
 
 -- Grant createdb privilege to user 'odoo'
 ALTER USER odoo CREATEDB;

@@ -1,6 +1,6 @@
 services:
   odoo:
-    image: antho686/odoo:19
+    image: antho686/odoo:18
     container_name: odoo
     hostname: odoo
     build:

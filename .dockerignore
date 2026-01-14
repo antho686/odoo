@@ -6,7 +6,7 @@
 # Documentation
 doc/
 # Non Containerized Environment Files
-odoo19/
+odoo18/
 # Containerized Database Data Volumes
 volumes/
 

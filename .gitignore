@@ -58,3 +58,8 @@ package.json
 /man/
 /share/
 /src/
+
+# Addons From Other Repositories
+addons/cup_is_customer_is_vendor/
+addons/e3k_*
+addons/stock_no_negative
